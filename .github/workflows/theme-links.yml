@@ -1,0 +1,21 @@
+name: Check theme files
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-theme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check theme files
+        run: |
+          test -f theme.json
+          test -f assets/wallpaper.png
+          test -f assets/preview.png
+          echo "Theme files found successfully"
