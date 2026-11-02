@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "themeApiVersion": 1,
-  "id": "github:your-name/your-themes:elden-ring",
+  "id": "github:abumlk0554-ship-it/elden-ring-theme:elden-ring",
   "title": "elden-ring",
   "description": "An original Elden Ring Golden Erdtree theme for Clean Your TV.",
   "author": {
-    "name": "Theme author",
-    "url": "https://github.com/your-name"
+    "name": "abumlk0554-ship-it",
+    "url": "https://github.com/abumlk0554-ship-it"
   },
   "themeVersion": "1.0.0",
   "layout": {
